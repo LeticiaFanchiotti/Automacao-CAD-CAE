@@ -23,6 +23,26 @@ O sistema integra Inteligência Artificial Generativa com ferramentas *open-sour
 * **Google Gemini Pro** (Via Google AI Studio)
 * **PySide** (Interface Gráfica de Usuário - GUI)
 
+## 🧩 Galeria de Componentes Gerados (Validação CSG)
+
+Abaixo estão as 9 famílias de componentes mecânicos paramétricos gerados integralmente de forma autônoma pelo sistema, validando a eficácia das operações de Geometria Construtiva de Sólidos (CSG) a partir de descrições em linguagem natural:
+
+<p align="center">
+  <img src="peca1_engrenagem.png" width="32%" title="Engrenagem Helicoidal" />
+  <img src="peca2_porca.png" width="32%" title="Porca sextavada" />
+  <img src="peca3_parafuso.png" width="32%" title="Parafuso de cabeça sextavada" />
+</p>
+<p align="center">
+  <img src="peca4_eixoescalonado.png" width="32%" title="Eixo escalonado" />
+  <img src="peca5_biela.png" width="32%" title="Biela" />
+  <img src="peca6_mancaldepedestal.png" width="32%" title="Mancal de pedestal" />
+</p>
+<p align="center">
+  <img src="peca7_poliaemV.png" width="32%" title="Polia em V" />
+  <img src="peca8_came.png" width="32%" title="Came" />
+  <img src="peca9_flange.png" width="32%" title="Flange" />
+</p>
+
 ## ⚙️ Como Executar
 
 1. Instale o [FreeCAD 1.0](https://www.freecadweb.org/) (necessário para o bypass nativo do Gmsh).
