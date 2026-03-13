@@ -6,10 +6,17 @@ Este repositório contém o código-fonte e os artefatos de validação da Inici
 
 O sistema integra Inteligência Artificial Generativa com ferramentas *open-source* de engenharia, atuando em quatro pilares fundamentais:
 
-1. **Processamento Semântico (Gemini API):** O LLM é restrito à função de extrator de dados, mapeando textos para matrizes JSON.
-2. **Motor Fallback (Resiliência):** Um sistema de contingência baseado em Regex garante a execução do fluxo geométrico mesmo em caso de falhas da API ou ausência de rede.
-3. **Modelação Paramétrica e TechDraw:** Geração de sólidos via Geometria Construtiva de Sólidos (CSG) e detalhamento técnico 2D dinâmico em pranchas ISO A3 no FreeCAD.
-4. **Bypass CAE C++ (Gmsh):** Fatiamento volumétrico invisível e injeção nativa de malhas tetraédricas no formato `.unv` diretamente no núcleo hospedeiro.
+**1. Processamento Semântico (Gemini API):** O LLM é restrito à função de extrator de dados, mapeando textos para matrizes JSON. O motor Fallback garante resiliência contra falhas.
+<p align="center"><img src="interface.png" width="800"></p>
+
+**2. Modelação Paramétrica e CSG:** Geração de sólidos via Geometria Construtiva de Sólidos e operações booleanas exatas.
+<p align="center"><img src="peca-3d.png" width="800"></p>
+
+**3. Detalhamento Técnico Automático (TechDraw):** Criação dinâmica e escalonamento de pranchas normatizadas no FreeCAD.
+<p align="center"><img src="prancha-2d.png" width="800"></p>
+
+**4. Bypass CAE C++ (Gmsh):** Fatiamento volumétrico invisível e injeção nativa de malhas tetraédricas prontas para simulação.
+<p align="center"><img src="malha-cae.png" width="800"></p>
 
 ## 📁 Estrutura do Repositório
 
